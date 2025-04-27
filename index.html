@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether & Lumine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showAlert()">
+    <div class="rain-container"></div>
+    <div class="container">
+        <div class="kiri">
+            <h1 class="judul-utama">Aether<br>& Lumine</h1>
+            <div class="judul-box" onclick="judulVideo()">Aether and Lumine: An Emotional Journey</div>
+            <div class="border-container">
+                <video controls poster="bahan/7ba4003c265c0f9bd06cd386597e95d8.jpg">
+                    <source src="bahan/Blue - Yung Kai.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="kanan">
+            <div class="judul-box" onclick="judulLagu()">Blue – Yung Kai</div>
+            <div class="audio-player">
+                <audio controls autoplay>
+                    <source src="bahan/Blue - Yung Kai.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="judul-box" onclick="judulFoto()">Captured Memories</div>
+            <div class="photo-container">
+                <div class="border-container">
+                    <img src="bahan/a60130db87e28ba2f4ce4ffbafc23095.jpg" alt="Lumine and Aether">
+                </div>
+                <div class="border-container">
+                    <img src="bahan/118c9730a978bb512ce2e8764d5b1088.jpg" alt="Lumine and Aether">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
